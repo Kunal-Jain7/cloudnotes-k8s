@@ -7,5 +7,7 @@ spec:
     app: backend
     version: blue   # 🔁 Jenkins flips this
   ports:
-  - port: 5000
+  - name: http
+    port: 5000
     targetPort: 5000
+

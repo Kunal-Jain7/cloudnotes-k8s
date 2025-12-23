@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cloudnotes-config
+data:
+  DB_HOST: "cloudnotes-db"
+  DB_NAME: "cloudnotes"
+  DB_PORT: "5432"
